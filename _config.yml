@@ -1,0 +1,26 @@
+remote_theme: ooflet/just-the-docs-inter
+title: kommand
+description: Documentation for Kommand
+baseurl: "/docs" # the subpath of your site, e.g. /blog
+url: "https://ooflet.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+color_scheme: BetterDarkTheme
+search_enabled: true
+# Aux links for the upper right navigation
+aux_links:
+  "Github":
+    - "https://github.com/ooflet/kommand"
+
+callouts:
+  info:
+    title: Info
+    color: blue
+    opacity: 1
+  warning:
+    title: Warning
+    color: red
+    opacity: 0.3
+  deprecated:
+    title: Deprecated
+    color: purple
+    opacity: 1
