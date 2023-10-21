@@ -1,0 +1,6 @@
+<font size="30">debug</font> (system *)
+These commands are used for debugging purposes.
+
+<font size="22">setcurrentmode <modeNumber></font>
+Sets the current mode or prefix to `modeNumber`. Mode numbers can be found at https://ooflet.github.io/docs/quickstart/prefix
+<font color="rgb(150,150,150)">debug setcurrentmode 1</font>

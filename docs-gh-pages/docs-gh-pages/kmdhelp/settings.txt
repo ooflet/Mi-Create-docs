@@ -1,0 +1,6 @@
+<font size="30">settings</font>
+These commands modify or change Kommand's settings. The setting.json file can be found at /workspace/Kommand/settings/setting.json
+
+<font size="22">blur <SettingsBlurValue></font>
+Shows or hide the background blur effect. This can be manually changed by changing the `blur` value in `setting.json`. Values can be true, false, or auto.
+<font color="rgb(150,150,150)">settings blur false</font>
