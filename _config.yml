@@ -20,7 +20,3 @@ callouts:
     title: Warning
     color: red
     opacity: 0.3
-  deprecated:
-    title: Deprecated
-    color: purple
-    opacity: 1
