@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Global
+title: Image
 nav_order: 1
-description: "Global"
-parent: Commands
-permalink: /commands/global
+description: "Image"
+parent: Widgets
+permalink: /widgets/image
 ---
 
-# Global
-Global commands can be used in any prefix.
+# Image
+Images are the most basic widget. They display bitmap images
 
 {: .no_toc }
 
@@ -21,7 +21,9 @@ Global commands can be used in any prefix.
 {:toc}
 </details>
 
-## Summary
+---
+
+## Properties
 
 |`clr/clear`|
 |:----------|
