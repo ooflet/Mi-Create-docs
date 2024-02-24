@@ -3,7 +3,7 @@ title: Mi Create
 description: Documentation for Mi Create
 baseurl: "/docs" # the subpath of your site, e.g. /blog
 url: "https://ooflet.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "/Images/docs_icon.png"
+logo: "../Images/docs_icon.png"
 
 color_scheme: BetterDarkTheme
 search_enabled: true
