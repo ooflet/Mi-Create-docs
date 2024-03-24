@@ -32,11 +32,13 @@ RGB565 has no alpha channel meaning no transparency support but smaller file siz
 
 ## Properties
 #### General
+
 |Name `@Name`|
 |:----------|
 |Widget name|
 
 #### Position
+
 |X `@X`|
 |:----------|
 |Horizontal position|
@@ -54,6 +56,7 @@ RGB565 has no alpha channel meaning no transparency support but smaller file siz
 |Widget height, automatically set by image|
 
 #### Appearance
+
 |Alpha `@Alpha`|
 |:----------|
 |Widget transparency|
@@ -63,6 +66,7 @@ RGB565 has no alpha channel meaning no transparency support but smaller file siz
 |Display the widget based on the source's value|
 
 #### Image
+
 |Image `@Bitmap`|
 |:----------|
 |The image to be displayed|
@@ -84,17 +88,9 @@ The vertical position of the widget.
 
 ### Width `@Width`
 
-{: .d-inline-block }
-
-Disabled {: .label .label-yellow }
-
 The width of the widget. This property is automatically set by the image's width.
 
 ### Height `@Height`
-
-{: .d-inline-block }
-
-Disabled {: .label .label-yellow }
 
 The height of the widget. This property is automatically set by the image's height.
 
