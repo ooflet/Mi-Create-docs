@@ -5,7 +5,7 @@ nav_order: 2
 description: "Quickstart"
 has_children: true
 has_toc: true
-permalink: /widgets
+permalink: /quickstart
 ---
 # Quickstart
 
