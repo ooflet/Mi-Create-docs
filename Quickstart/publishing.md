@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Testing
+title: Publishing
 nav_order: 3
-description: "Testing your watchface"
+description: "Publishing your watchface"
 parent: Quickstart
-permalink: /quickstart/testing
+permalink: /quickstart/publishing
 ---
 # Testing your Watchface
 
