@@ -1,12 +1,14 @@
 ---
 layout: default
-title: Intro
+title: Introduction
 nav_order: 1
 description: "Introduction to Mi Create"
 parent: Quickstart
 permalink: /quickstart/intro
 ---
 # Introduction
+
+Introduction to Mi Create
 
 {: .no_toc }
 
@@ -23,7 +25,7 @@ permalink: /quickstart/intro
 
 ## Creating a Watchface
 
-Mi Create is a watchface creation tool. It is the main graphical program for creating custom watchfaces on these devices.
+Mi Create is a watchface creation tool. It is a graphical program for creating and editing custom watchfaces on Xiaomi wearables.
 
 **Widgets** are the components of your watchface, things like images, analog hands, digital numbers, etc. The **Canvas** is the part of the program where your watchface is previewed and editable. **Building** is the act of compiling your watchface project into a format thats readable by the watch.
 
@@ -39,7 +41,7 @@ From here, a blank watchface canvas will be displayed. Zoom in and out of the ca
 
 ## Adding and Configuring Widgets
 
-To create a widget, press the ![Plus Icon](../Images/plus.png) plus  button on the top left and select a widget on the dropdown that appears. It will immediately be created to the center of the watchface. 
+To create a widget, press the ![Plus Icon](../Images/plus.png) create button on the top left and select a widget on the dropdown that appears. It will be created to the center of the watchface. 
 
 ![Add Widget Dropdown](../Images/add-widget.png)
 
@@ -53,9 +55,9 @@ Once the widget has been created and selected, head over to the Properties panel
 
 All widgets require images to display, Digital Number widgets require a list of images to represent numbers, Analog widgets require images to represent the hands of an analog clock, and the Image widget requires a static image to display.
 
-To add an image, locate the resources panel (by default this is placed on the left hand side). Add an image to the list by pressing the ![Image Plus](../Images/image-plus.png) `Add Image` button which is located at the bottom of the panel. 
+To add an image, press the ![Image Plus](../Images/image-plus.png) `Add Image` button which is located at the bottom of the resources panel. 
 
-![alt text](image.png)
+![Resource Panel Buttons](../Images/resource-buttons.png)
 
 Once the image is added, you may either drag and drop the image onto the image field, or select the dropdown to the right of the field to show a list of all the available images and select your image from there.
 
@@ -63,6 +65,6 @@ Once the image is added, you may either drag and drop the image onto the image f
 
 If your image is not there in the dropdown, reselect the object.
 
-[Prefixes >](https://ooflet.github.io/docs/quickstart/prefix){: .btn .btn-blue }
+[Testing your Watchface >](https://ooflet.github.io/docs/quickstart/prefix){: .btn .btn-blue }
 
 

@@ -11,7 +11,7 @@ permalink: /
 Get started on creating your first watchface, or learn about watchface elements.
    
 [Introduction](https://ooflet.github.io/docs/quickstart/intro){: .btn .btn-blue } 
-[Widgets](https://ooflet.github.io/docs/widgets){: .btn }
+[Widgets](https://ooflet.github.io/docs/widgets){: .btn .btn-purple }
 
 ---
 

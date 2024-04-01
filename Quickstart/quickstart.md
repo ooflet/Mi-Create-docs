@@ -9,4 +9,4 @@ permalink: /quickstart
 ---
 # Quickstart
 
-Get started on creating your first watchface
+Get started on creating your first watchface. This section is intented to guide you on creating watchfaces

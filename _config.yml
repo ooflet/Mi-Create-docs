@@ -19,5 +19,5 @@ callouts:
     opacity: 1
   warning:
     title: Warning
-    color: red
+    color: yellow
     opacity: 0.3

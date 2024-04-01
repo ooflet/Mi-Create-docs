@@ -9,5 +9,7 @@ permalink: /widgets
 ---
 # Widgets
 
-Widgets are the "building blocks" of making a watchface.
+Widgets are the components of making a watchface.
+
+
 
