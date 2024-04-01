@@ -65,6 +65,6 @@ Once the image is added, you may either drag and drop the image onto the image f
 
 If your image is not there in the dropdown, reselect the object.
 
-[Testing your Watchface >](https://ooflet.github.io/docs/quickstart/prefix){: .btn .btn-blue }
+[Testing your Watchface >](https://ooflet.github.io/docs/quickstart/testing){: .btn .btn-blue }
 
 
