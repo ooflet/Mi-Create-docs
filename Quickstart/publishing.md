@@ -6,7 +6,7 @@ description: "Publishing your watchface"
 parent: Quickstart
 permalink: /quickstart/publishing
 ---
-# Testing your Watchface
+# Publishing your Watchface
 
 Publishing your watchface for others to see. This guide primarily focuses on m0tral's custom Mi Fitness mod and servers.
 
@@ -24,7 +24,7 @@ Publishing your watchface for others to see. This guide primarily focuses on m0t
 ---
 
 ## Prerequisites 
-{ .info}
+{: .info }
 The .FACE file in your project's output folder is your watchface binary. Rename it to .bin if you are uploading to another service.
 
 We're assuming that you are attempting to publish onto m0tral's servers. If you do not have access already to them, please follow the guide on https://ooflet.github.io/docs/quickstart/testing#preparations. If you are uploading your watchface on another service like AmazfitWatchFaces, please follow instructions there on how to upload a watchface.

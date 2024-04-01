@@ -24,7 +24,7 @@ Thank you for your interest in contributing to Mi Create!
 
 ## Translations
 
-{ .info }
+{: .info }
 You can view a list of language codes at https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes 
 
 Currently, translations are done using GNU's gettext standard. To edit existing translations, clone the repository, open the locales folder in src/locales, open your locale's folder > LC_MESSAGES and edit using a program like Poedit:
