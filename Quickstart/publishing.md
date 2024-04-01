@@ -24,6 +24,7 @@ Publishing your watchface for others to see. This guide primarily focuses on m0t
 ---
 
 ## Prerequisites 
+
 {: .info }
 The .FACE file in your project's output folder is your watchface binary. Rename it to .bin if you are uploading to another service.
 
@@ -40,7 +41,8 @@ Congratulations! 🥳 You have uploaded your watchface for everyone to see!
 ---
 
 ## Monetisation
-{ .info}
+
+{: .info }
 Monetisation is only available for Russian citizens at the moment due to political tensions.
 
 Please contact @m0tral on Telegram if you wish to sell your watchface.

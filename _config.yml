@@ -15,7 +15,7 @@ aux_links:
 callouts:
   info:
     title: Info
-    color: blue
+    color: blue-000
     opacity: 0.3
   warning:
     title: Warning
