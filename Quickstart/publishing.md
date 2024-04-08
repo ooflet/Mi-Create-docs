@@ -42,7 +42,4 @@ Congratulations! 🥳 You have uploaded your watchface for everyone to see!
 
 ## Monetisation
 
-{: .info }
-Monetisation is only available for Russian citizens at the moment due to political tensions.
-
 Please contact @m0tral on Telegram if you wish to sell your watchface.
