@@ -7,15 +7,6 @@ theme:
   logo: Images/docs_icon.png
   favicon: Images/favicon.png
   palette: 
-  
-    # Palette toggle for dark mode
-    - scheme: slate
-      primary: black
-      accent: light blue
-      toggle:
-        icon: material/brightness-7
-        name: Switch to light mode
-
     # Palette toggle for light mode
     - scheme: default
       primary: deep orange
@@ -23,11 +14,19 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: light blue
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to light mode
   features:
     - header.autohide
     - navigation.tabs
     - navigation.top
-    - navigation.instant
+    #- navigation.instant
     - navigation.instant.progress
     - navigation.footer
 
