@@ -4,7 +4,7 @@ repo_name: ooflet/mi-create
 theme:
   name: material
   custom_dir: overrides
-  logo: Images/docs_icon.png
+  logo: Images/docs_icon.svg
   favicon: Images/favicon.png
   palette: 
     # Palette toggle for light mode
