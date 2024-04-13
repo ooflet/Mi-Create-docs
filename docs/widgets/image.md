@@ -1,25 +1,5 @@
----
-layout: default
-title: Image
-nav_order: 1
-description: "Image"
-parent: Widgets
-permalink: /widgets/image
----
-
 # Image
 The Image widget is the most basic widget. It displays bitmap images
-
-{: .no_toc }
-
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
 
 ---
 

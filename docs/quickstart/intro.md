@@ -1,25 +1,6 @@
----
-layout: default
-title: Introduction
-nav_order: 1
-description: "Introduction to Mi Create"
-parent: Quickstart
-permalink: /quickstart/intro
----
 # Introduction
 
 Introduction to Mi Create
-
-{: .no_toc }
-
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
 
 ---
 
@@ -29,13 +10,13 @@ Mi Create is a watchface creation tool. It is a graphical program for creating a
 
 **Widgets** are the components of your watchface, things like images, analog hands, digital numbers, etc. The **Canvas** is the part of the program where your watchface is previewed and editable. **Building** is the act of compiling your watchface project into a format thats readable by the watch.
 
-Create a watchface by pressing `Ctrl` + `N` or by pressing the ![New Project Icon](../Images/file-plus.png)`New Project` link in the Welcome page. You will be greeted by the New Project dialog.
+Create a watchface by pressing ++ctrl+n++ or by pressing the ![New Project Icon](../Images/file-plus.png)`New Project` link in the Welcome page. You will be greeted by the New Project dialog.
 
 ![Alt text](../Images/project-dialog.png)
 
 Start by selecting the device you want to make your watchface for in the Select device dropdown, naming your project and setting where the project will be created.
 
-From here, a blank watchface canvas will be displayed. Zoom in and out of the canvas by clicking in the canvas and pressing `Ctrl` `+` / `Ctrl` `-`. Alternatively, you can hold `Ctrl` and scroll your mouse wheel, or simply pressing the ![Zoom In](../Images/zoom-in.png) Zoom In and ![Zoom Out](../Images/zoom-out.png) Zoom Out buttons on the toolbar.
+From here, a blank watchface canvas will be displayed. Zoom in and out of the canvas by clicking in the canvas and pressing ++ctrl+plus++ / ++ctrl+minus++. Alternatively, you can hold ++ctrl++ and scroll your mouse wheel, or simply pressing the ![Zoom In](../Images/zoom-in.png) Zoom In and ![Zoom Out](../Images/zoom-out.png) Zoom Out buttons on the toolbar.
 
 ---
 
@@ -65,6 +46,5 @@ Once the image is added, you may either drag and drop the image onto the image f
 
 If your image is not there in the dropdown, reselect the object.
 
-[Testing your Watchface >](https://ooflet.github.io/docs/quickstart/testing){: .btn .btn-blue }
 
 
