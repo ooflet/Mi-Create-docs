@@ -15,64 +15,64 @@ RGB565 has no alpha channel meaning no transparency support but smaller file siz
 ## Properties
 #### General
 
-|Name `@Name`|
+|Name |
 |:----------|
 |Widget name|
 
 #### Position
 
-|X `@X`|
+|X |
 |:----------|
 |Horizontal position|
 
-|Y `@Y`|
+|Y |
 |:----------|
 |Vertical position|
 
-|Width `@Width` (disabled)|
+|Width (disabled)|
 |:----------|
 |Widget width, automatically set by image|
 
-|Height `@Height` (disabled)|
+|Height (disabled)|
 |:----------|
 |Widget height, automatically set by image|
 
 #### Appearance
 
-|Alpha `@Alpha`|
+|Alpha |
 |:----------|
 |Widget transparency|
 
-|Visibility Trigger `@Visible_Src` (some watches)|
+|Visibility Trigger (some watches)|
 |:----------|
 |Display the widget based on the source's value|
 
 #### Image
 
-|Image `@Bitmap`|
+|Image |
 |:----------|
 |The image to be displayed|
 
 ---
 ## General
 
-### Name `@Name`
+### Name 
 The name of the widget.
 
 ---
 ## Position
 
-### X `@X`
+### X 
 The horizontal position of the widget.
 
-### Y `@Y`
+### Y 
 The vertical position of the widget.
 
-### Width `@Width`
+### Width 
 
 The width of the widget. This property is automatically set by the image's width.
 
-### Height `@Height`
+### Height 
 
 The height of the widget. This property is automatically set by the image's height.
 
@@ -80,17 +80,17 @@ The height of the widget. This property is automatically set by the image's heig
 
 ## Appearance
 
-### Alpha `@Alpha`
+### Alpha 
 The alpha value (transparency) of the widget.
 
-### Visibility Trigger `@Visible_Src`
+### Visibility Trigger 
 Determines the widget's visibility based on a source's value. The widget is hidden when the value of the source is 0, otherwise it is visible. **This property is only visible on Xiaomi Watch Color/Color Sport/Color 2/S1/S1 Pro/S2**
 
 ---
 
 ## Image
 
-### Image `@Bitmap`
+### Image 
 The image to be displayed on the widget.
 
 

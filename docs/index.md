@@ -5,6 +5,14 @@ hide:
 ---
 
 # Home
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<img src="../Images/window.png" alt="Window" width="900"/>
 
 Get started on creating your first watchface, or read up on watchface elements.
    

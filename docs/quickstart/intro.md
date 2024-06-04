@@ -22,6 +22,21 @@ From here, a blank watchface canvas will be displayed. Zoom in and out of the ca
 
 ## Adding and Configuring Widgets
 
+!!! tip
+
+    If the program is slow when adding and moving widgets, you may like to tweak a few settings (++ctrl+p++) to help with performance
+
+    - Clip to Device Shape enables rounding the corners of the canvas to the corner radius of the watch. This can make the canvas slow and laggy. If this is not enabled, the classic rounded white outline from EasyFace which defines the bounds of the watchface will be shown instead.
+    - Turning on Performance Outlines disables the handling of object outlines as seperate items, drawing them directly as outlines on the widget. This comes as a decent performance boost, but if you're using Clip to Device Shape the outlines will be clipped out alongside the widget, which means the oulines will be less visible. Performace outlines are also drawn underneath the image, so the image can cover a significant portion of the outline.
+    - Antialiasing helps hide jagged lines present when drawing non-straight objects. Antialiasing is usually unnecessary because it only applies to vector objects in the canvas, such as progress arc borders. Disabling this may help with performance slighly.
+    - Image Interpolation is the way zoomed in images are handled. By default, this is set to Bilinear which "blurs" neighbouring pixels to make it look smoother. Nearest neighbour however preserves the pixels making things look more pixelated. Below is the difference between bilinear and nearest neighbour, where nearest neighbour is pictured on the left and bilinear is on the right:
+
+      ![Nearest neighbour pictured on left, Bilinear on right](../Images/bilinear.png)
+
+    *Artwork from <https://www.deviantart.com/gelik1html/art/HSR-Render-Silver-Wolf-Chibi-1011345132>*
+
+
+
 To create a widget, press the ![Plus Icon](../Images/plus.png) create button on the top left and select a widget on the dropdown that appears. It will be created to the center of the watchface. 
 
 ![Add Widget Dropdown](../Images/add-widget.png)
@@ -46,5 +61,11 @@ Once the image is added, you may either drag and drop the image onto the image f
 
 If your image is not there in the dropdown, reselect the object.
 
+!!! note 
 
+    Xiaomi wearables are by all means not powerful devices compared to proper smartwatches like Apple Watches and Wear OS Watches, so there are some things you might need to take into consideration when designing your watchface:
 
+    - **Attempt to use the least amount of storage on your watchface.** Xiaomi watches usually don't have much storage for watchfaces. Big, colourful images take up a decent chunk of storage. Aim for watchfaces with >5MB final file size, so that you save storage space on the watch and have faster transfer time from your phone to your watch.
+    - **Try using as little widgets as possible.** Do things like merge static images and icons as one single image widget.
+    - **Use transparent images (_RGBA/RGBA32) sparingly** especially on watches with no watchface compression. Transparent widgets take up way more storage than regular images.
+    - **When creating animations, don't make them too big or use too many frames.** Your watch most likely cannot handle full screen animations at 20-30fps, let alone 60. So, save some resources and make small, simple animations. Refrain from making full screen animations.

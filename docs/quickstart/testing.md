@@ -59,11 +59,11 @@ Once you're ready to test out your watchface, you can build/compile it to a form
 
 1. In the toolbar, select the ![Build](../Images/package.png) build button
 2. In the popup that appears, fill the following fields:
-   - Watchface name - The name of the watchface that appears in the watch
-   - Watchface thumbnail - The thumbnail of the watchface that appears in the watch
+    - Watchface name - The name of the watchface that appears in the watch
+    - Watchface thumbnail - The thumbnail of the watchface that appears in the watch
 3. The watchface will be built using the data that is saved **in the project files**, not in the application. You can choose whether to:
-   - Save - Save open project to file before building
-   - Discard - Dont save anything to file before building
+    - Save - Save open project to file before building
+    - Discard - Dont save anything to file before building
 4. Check build results for any errors.
 
 Your watchface binary will be in the output folder in your project.
