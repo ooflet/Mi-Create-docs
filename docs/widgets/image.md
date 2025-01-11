@@ -39,58 +39,17 @@ RGB565 has no alpha channel meaning no transparency support but smaller file siz
 
 #### Appearance
 
-|Alpha |
+|Opacity |
 |:----------|
 |Widget transparency|
 
-|Visibility Trigger (some watches)|
+|Visibility Trigger|
 |:----------|
 |Display the widget based on the source's value|
+|*Only visible on Xiaomi Watch Color/Sport/2/S1/S1 Pro/S2*| 
 
 #### Image
 
 |Image |
 |:----------|
 |The image to be displayed|
-
----
-## General
-
-### Name 
-The name of the widget.
-
----
-## Position
-
-### X 
-The horizontal position of the widget.
-
-### Y 
-The vertical position of the widget.
-
-### Width 
-
-The width of the widget. This property is automatically set by the image's width.
-
-### Height 
-
-The height of the widget. This property is automatically set by the image's height.
-
----
-
-## Appearance
-
-### Alpha 
-The alpha value (transparency) of the widget.
-
-### Visibility Trigger 
-Determines the widget's visibility based on a source's value. The widget is hidden when the value of the source is 0, otherwise it is visible. **This property is only visible on Xiaomi Watch Color/Color Sport/Color 2/S1/S1 Pro/S2**
-
----
-
-## Image
-
-### Image 
-The image to be displayed on the widget.
-
-

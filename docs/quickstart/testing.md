@@ -82,5 +82,3 @@ There may have been some watchface errors that slipped through build errors. The
     The .FACE file in your project's output folder is your watchface binary. Rename it to .bin if you are uploading to another service.
 
 If you have access to the @m0tral's development servers, access the admin panel at https://miwatch.conversmod.ru/micolor/facemain?YOUR-MAC-ADDRESS-HERE and upload your watchface on the bottom panel. You can apply it in Mi Fitness > Watchfaces > Categories > Test RU 
-
-![category button](../Images/app-categories.jpg)

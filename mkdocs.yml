@@ -6,6 +6,8 @@ theme:
   custom_dir: overrides
   logo: Images/docs_icon.svg
   favicon: Images/favicon.png
+  font: 
+    text: Inter
   palette: 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -66,5 +68,6 @@ nav:
     - Publishing: quickstart/publishing.md
   - Widgets:
     - Images: widgets/image.md
+    - Digital Numbers: widgets/number.md
   - Customization: customization.md
   - Contributing: contributing.md

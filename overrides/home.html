@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+{% extends "main.html" %}
+
+{% block tabs %}
+{{ super() }}
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+
+<body>
+  <div class="center">
+    <div class="image-container">
+      <img src="images/hero-text.svg" alt="No-frills Watchface Editor" class="hero">
+      <img src="images/window.png" alt="Window" class="window-img">
+    </div>
+    <div class="vertical-center">
+      <a href="quickstart/intro"><button class="button primary"><img src="images/rocket.svg" class="button-icon">Get Started</button></a>
+      <a href="quickstart/intro"><button class="button"><img src="images/widget.svg" class="button-icon">Widgets</button></a>
+    </div>
+  </div>
+</body>
+
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}
