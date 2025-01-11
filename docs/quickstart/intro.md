@@ -32,8 +32,7 @@ Alternatively when a project is open you can click **Edit > Settings** or ++ctrl
 
 If the program is slow when adding and moving widgets, you may like to tweak a few settings in here to help with performance:
 
-- Clip to Device Shape enables rounding the corners of the canvas to the corner radius of the watch. This can make the canvas slow and laggy. If this is not enabled, the classic rounded white outline from EasyFace which defines the bounds of the watchface will be shown instead.
-- Turning on Performance Outlines disables the handling of object outlines as seperate items, drawing them directly as outlines on the widget. This comes as a decent performance boost, but if you're using Clip to Device Shape the outlines will be clipped out alongside the widget, which means the oulines will be less visible. Performace outlines are also drawn underneath the image, so the image can cover a significant portion of the outline.
+- Clip to Device Shape enables rounding the corners of the canvas to the corner radius of the watch. This can make the canvas lag. If this is not enabled, the classic rounded white outline from EasyFace which defines the bounds of the watchface will be shown instead.
 - Antialiasing helps hide jagged lines present when drawing non-straight objects. Antialiasing is usually unnecessary because it only applies to vector objects in the canvas, such as progress arc borders. Disabling this may help with performance slighly.
 - Image Interpolation is the way zoomed in images are handled. By default, this is set to Bilinear which "blurs" neighbouring pixels to make it look smoother. Nearest neighbour however preserves the pixels making things look more pixelated. Below is the difference between bilinear and nearest neighbour, where nearest neighbour is pictured on the left and bilinear is on the right:
 
@@ -51,12 +50,10 @@ There are 2 implemented project formats in Mi Create:
 
 - .fprj (EasyFace/m0tral)
 - wfDef.json (GMF)
-
-Each project format has their own benefits and disadvantages. You may view them in the [formats](project/formats) page.
-
+<!--Each project format has their own benefits and disadvantages. You may view them in the [formats](project/formats) page.!-->
 Click  the **New Project** button in the **Welcome Page** to open the New Project page.
 
-Alternatively when a project is open you can click **File > New...** or ++ctrl+n++ to access the settings page
+Alternatively when a project is open you can click **File > New...** or ++ctrl+n++ to access the new project page
 
 ![New project page](image-1.png)
 
